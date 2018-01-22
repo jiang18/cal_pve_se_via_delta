@@ -19,7 +19,9 @@ At least 3 arguments needed:
   MMAP .variance.components.T.csv file
   >=2 VarComp names
 Example:
-  perl cal_pve_se_via_delta_for_mmap.pl test.variance.components.T.csv G D I ERROR
+  perl cal_pve_se_via_delta.pl test.variance.components.T.csv G D I ERROR
+  
+The sum of all specified variance components is used as total.
 };
 
 @ARGV > 2 or die $err_msg;
