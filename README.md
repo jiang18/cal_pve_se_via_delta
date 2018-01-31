@@ -15,7 +15,7 @@ COV_ERROR_ERROR,118.568153
 Command line:  
 perl cal_pve_se_via_delta.pl ex.varcomp.csv G ERROR  
 
-# Usage  
+## Usage  
 At least 3 arguments needed:  
 &nbsp;&nbsp;MMAP .variance.components.T.csv file  
 &nbsp;&nbsp;>=2 VarComp names  
@@ -24,3 +24,5 @@ Example:
 
 The sum of all specified variance components is used as total. 
 
+## Contact
+Jicai Jiang (jicai.jiang AT gmail DOT com)
