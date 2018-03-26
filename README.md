@@ -13,14 +13,18 @@ COV_ERROR_G,2.209236
 COV_ERROR_ERROR,118.568153  
 
 Command line:  
-perl cal_pve_se_via_delta.pl ex.varcomp.csv G ERROR  
+```
+perl cal_pve_se_via_delta.pl ex.varcomp.csv G ERROR
+```
 
 ## Usage  
 At least 3 arguments needed:  
 &nbsp;&nbsp;MMAP .variance.components.T.csv file  
 &nbsp;&nbsp;>=2 VarComp names  
-Example:  
-&nbsp;&nbsp;perl cal_pve_se_via_delta.pl test.variance.components.T.csv G D I ERROR  
+Example: 
+```
+perl cal_pve_se_via_delta.pl test.variance.components.T.csv G D I ERROR
+```
 
 The sum of all specified variance components is used as total. 
 
