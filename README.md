@@ -29,4 +29,4 @@ perl cal_pve_se_via_delta.pl test.variance.components.T.csv G D I ERROR
 The sum of all specified variance components is used as total. 
 
 ## Contact
-Jicai Jiang (jicai.jiang AT gmail DOT com)
+Jicai Jiang (jicai_jiang AT ncsu DOT edu)
